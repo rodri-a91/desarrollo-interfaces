@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>003: Tipos de datos</title>
+</head>
+<body>
+<h1>003: Tipos de datos</h1>
+<p id="number-positivo"></p>
+<p id="number-negativo"></p>
+<p id="float-positivo"></p>
+<p id="float-negativo"></p>
+<p id="octal"></p>
+<p id="binario"></p>
+<p id="infinity"></p>
+<p id="not-number"></p>
+
+<script>
+    const numeroPositivo = document.getElementById("number-positivo");
+    let positivo = 20;
+    numeroPositivo.innerHTML = `${positivo} se corresponde al tipo ${typeof positivo}`;
+
+    const numeroNegativo = document.getElementById("number-negativo");
+    numeroNegativo.innerHTML = `${-positivo} se corresponde al tipo ${typeof -positivo}`;
+    
+    const decimalPositivo = document.getElementById("float-positivo");
+    let decimal = 10.5;
+    decimalPositivo.innerHTML = `${decimal} se corresponde al tipo ${typeof decimal}`
+
+    const decimalNegativo = document.getElementById("float-negativo");
+    decimalNegativo.innerHTML = `${-decimal} se corresponde al tipo ${typeof -decimal}`
+
+    const octal = document.getElementById("octal")
+    let numeroOctal = 0o15112
+    octal.innerHTML = `0o${numeroOctal.toString(8)} es ${numeroOctal} en decimal y se corresponde al tipo ${typeof numeroOctal}`
+
+
+</script>
+    
+</body>
+</html>
