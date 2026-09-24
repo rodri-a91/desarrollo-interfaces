@@ -15,8 +15,8 @@ console.log(BigInt(num)+big)
 
 //3
 //Expansión (descomprensión)
-const numeros = [10,20,30]
-const nuevo = [0, ...numeros, 40,50]
+const numerosIniciales = [10,20,30]
+const nuevo = [0, ...numerosIniciales, 40,50]
 console.log(nuevo)
 
 //Agrupación (comprensión)
@@ -53,7 +53,7 @@ Object.defineProperty(coche, 'precioIVA', {
 })
 
 delete coche.motor
-coche.arrancar
+coche.arrancar()
 console.log(coche.precioIVA)
 
 //5
@@ -116,11 +116,11 @@ for (let i = 0; i <= 15; i++) {
 }
 
 const numeros = [5,10,15,20]
-let suma = 0
+let sumaNumeros = 0
 for (const numero of numeros) {
-    suma += numero
+    sumaNumeros += numero
 }
-console.log(suma)
+console.log(sumaNumeros)
 
 const coche = {
     marca: "Toyota",
@@ -174,13 +174,14 @@ for (const palabra of palabras) {
     console.log(`${palabra} tiene ${palabra.length} letras`)
 }
 
-let suma = 0, i = 0
+let sumaAcumulada = 0
+i = 0
 do {
-    suma+= i
+    sumaAcumulada += i
     i++
     
 } while (i<=5);
-console.log(suma)
+console.log(sumaAcumulada)
 
 //6
 //6.1
