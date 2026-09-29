@@ -6,13 +6,12 @@ type ProductoProps = {
 
 function Producto({nombre,precio,disponible}:ProductoProps) {
     return (
-        <>
+        <div className="producto">
         
-        <p>{nombre}</p>
-        <p>{precio}</p>
-        <p>{disponible}</p>
-
-        </>
+        <h3>{nombre}</h3>
+        <p>{precio.toLocaleString("es-ES", {style: "currency", currency: "EUR"})}</p>
+        <p>{disponible ? "En stock" : "Agotado"}</p>
+        </div>
     )
 
 }
