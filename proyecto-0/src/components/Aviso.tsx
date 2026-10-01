@@ -1,9 +1,7 @@
 import type { ReactNode } from "react"
 
-type TipoAviso = 'info' | 'exito' | 'error'
-
 type AvisoProps = {
-    tipo?: TipoAviso
+    tipo?: 'info' | 'exito' | 'error'
     titulo?: string
     children: ReactNode
 }
@@ -15,7 +13,7 @@ function Aviso({tipo = 'info', titulo = 'Aviso', children}: AvisoProps) {
   return (
     <div className={`aviso ${tipo}`}>
         <h2>{iconos[tipo]} {titulo} </h2>
-        <p>{children}</p>
+        <div>{children}</div>
         </div>
   )
 }
