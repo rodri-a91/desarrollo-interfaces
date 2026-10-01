@@ -19,7 +19,6 @@ p {
 
 .tienda {
   font-family: Arial, sans-serif;
-  display: flex;
   gap: 1rem;
   padding: 1rem;
 }
