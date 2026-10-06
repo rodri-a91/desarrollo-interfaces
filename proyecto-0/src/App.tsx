@@ -1,5 +1,12 @@
-import './App.css'
-import Texto from './components/eventos/texto.tsx'
+import AlternarContenido from './components/continuando/AlternarContenido.tsx'
+import EjemploInput from './components/continuando/EjemploInput.tsx'
+import EjemploParámetros from './components/continuando/EjemploParámetros.tsx'
+import EstadoArray from './components/continuando/EstadoArray.tsx'
+import EstadoClicks from './components/continuando/EstadoClicks.tsx'
+import EstadoUsuario from './components/continuando/EstadoUsuario.tsx'
+import MiComponente from './components/continuando/MiComponente.tsx'
+import MostrarOcultar from './components/continuando/MostrarOcultar.tsx'
+// import Texto from './components/eventos/texto.tsx'
 // import Contador from './components/estados/Contador'
 // import Contador3 from './components/estados/Contador3'
 // import Producto from './components/primeros-pasos/Producto'
@@ -19,12 +26,20 @@ function App() {
     return (
     <>
 
+      <MiComponente/>
+      <MostrarOcultar/>
+      <AlternarContenido/>
+      <EstadoUsuario/>
+      <EstadoArray/>
+      <EstadoClicks/>
+      <EjemploInput/>
+      <EjemploParámetros/>
 
-      <Texto/>
 
 
 
 
+      {/* <Texto/> */}
 
       {/* <Contador titulo='+1' max={10}/>
       <Contador titulo='+5' step={5} max={10}/>
