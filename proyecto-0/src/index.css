@@ -17,13 +17,14 @@ body {
 button {
   padding: 0.4 rem 0.9 rem;
   cursor: pointer;
+  margin: 4px;
 }
 
-div > div {
-  border: 1px solid red;
+/* div {
   margin: 10px;
   padding: 10px;
-}
+} */
+
 
 /* 
 @media (prefers-color-scheme: dark) {
