@@ -6,7 +6,6 @@ function SelectorActividades() {
     const [actividad, setActividad] = useState<string>('')
     const [energia, setEnergia] = useState<string>('bajo')
     const [tiempo, setTiempo] = useState<number>(15)
-
     const [visible, setVisible] = useState<boolean>(false)
 
 
@@ -18,7 +17,7 @@ function SelectorActividades() {
     const mostrarRecomendaciones = () => {
         setVisible(!visible)
     }
-
+    
     const recomendaciones: Record<string, string[]> = {
         deporte: ['Recuerda hidratarte', 'Haz calentamiento'],
         lectura: ['Busca un lugar cómodo', 'Ajusta la luz'],
