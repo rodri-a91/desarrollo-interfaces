@@ -14,10 +14,12 @@ const catalogo: Producto[] = [
 ];
 
 
-
 function Carrito() {
     const [carrito, setCarrito] = useState<Producto[]>([])
-    const [articulo, setArticulo] = useState('')
+    let total = 0
+    for (const prod of carrito) {
+        total += prod.precio
+    }
     return (
         <>
             <h3>Catálogo</h3>
@@ -38,11 +40,11 @@ function Carrito() {
             {carrito.length === 0 ? "El carrito está vacío" : <div>
                 <ul>
                     {
-                        carrito.map(pr => <li key={pr.id}>{pr.nombre} -- {pr.precio}</li>)
+                        carrito.map(pr => <li key={pr.id}>{pr.nombre} — {pr.precio} € <button onClick={() => setCarrito(carrito.filter((item) => pr.id !== item.id))}>✖</button></li>)
                     }
                 </ul>
 
-                <p>Total: €</p>
+                <p>Total: {total} €</p>
 
             </div>}
 
