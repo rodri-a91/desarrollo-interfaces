@@ -17,6 +17,11 @@
 // import Precio from './components/Precio.tsx'
 // import Tarjeta from './components/Tarjeta.tsx'
 
+// import Contacto from "./components/formulario/Contacto"
+import ContactoUnico from "./components/formulario/ContactoUnico"
+import Registro from "./components/formulario/Registro"
+import Saludo from "./components/formulario/Saludo"
+
 // import ListaBuena from "./components/listas/ListaBuena"
 // import ListaMala from "./components/listas/ListaMala"
 // import SelectorActividades from "./components/SelectorActividades"
@@ -24,8 +29,8 @@
 // import ListaAlumnosFiltrados from "./components/listas/ListaAlumnosFiltrados"
 // import ListaCompra from "./components/listas/ListaCompra"
 // import Carrito from "./components/listas/Carrito"
-// import CarritoStock from "./components/listas/CarritoStock"
-import Tutorial from "./components/tutorial/Tutorial"
+// // import CarritoStock from "./components/listas/CarritoStock"
+// import Tutorial from "./components/tutorial/Tutorial"
 
 // const enDolares = (cantidad: number) => {
 //   return cantidad.toLocaleString("us-US", { style: "currency", currency: "USD" })
@@ -36,14 +41,22 @@ function App() {
     return (
     <>
 
+<Saludo/><br/>
+<ContactoUnico/><br/>
+<Registro/>
+
+
+
+
+
+
 {/* <SelectorActividades/> */}
 {/* <ListaMala/>
 <ListaBuena/>
 <TablaAlumnos/>
 <ListaAlumnosFiltrados/>
 <ListaCompra/> */}
-{/* <CarritoStock/> */}
-<Tutorial/>
+<CarritoStock/>
 
 
       {/* <MiComponente/>
