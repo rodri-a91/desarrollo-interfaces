@@ -19,6 +19,7 @@
 
 // import Contacto from "./components/formulario/Contacto"
 import ContactoUnico from "./components/formulario/ContactoUnico"
+import Registro from "./components/formulario/Registro"
 import Saludo from "./components/formulario/Saludo"
 
 // import ListaBuena from "./components/listas/ListaBuena"
@@ -39,8 +40,9 @@ function App() {
     return (
     <>
 
-<Saludo/><br></br>
-<ContactoUnico/>
+<Saludo/><br/>
+<ContactoUnico/><br/>
+<Registro/>
 
 
 
