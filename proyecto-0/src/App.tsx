@@ -24,7 +24,8 @@
 // import ListaAlumnosFiltrados from "./components/listas/ListaAlumnosFiltrados"
 // import ListaCompra from "./components/listas/ListaCompra"
 // import Carrito from "./components/listas/Carrito"
-import CarritoStock from "./components/listas/CarritoStock"
+// import CarritoStock from "./components/listas/CarritoStock"
+import Tutorial from "./components/tutorial/Tutorial"
 
 // const enDolares = (cantidad: number) => {
 //   return cantidad.toLocaleString("us-US", { style: "currency", currency: "USD" })
@@ -41,7 +42,8 @@ function App() {
 <TablaAlumnos/>
 <ListaAlumnosFiltrados/>
 <ListaCompra/> */}
-<CarritoStock/>
+{/* <CarritoStock/> */}
+<Tutorial/>
 
 
       {/* <MiComponente/>
