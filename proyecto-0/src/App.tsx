@@ -17,10 +17,15 @@
 // import Precio from './components/Precio.tsx'
 // import Tarjeta from './components/Tarjeta.tsx'
 
+import Buscador from "./components/efectos/Buscador"
+import Cronometro from "./components/efectos/Cronometro"
+import Llamado from "./components/efectos/Llamado"
+
+
 // import Contacto from "./components/formulario/Contacto"
-import ContactoUnico from "./components/formulario/ContactoUnico"
-import Registro from "./components/formulario/Registro"
-import Saludo from "./components/formulario/Saludo"
+// import ContactoUnico from "./components/formulario/ContactoUnico"
+// import Registro from "./components/formulario/Registro"
+// import Saludo from "./components/formulario/Saludo"
 
 // import ListaBuena from "./components/listas/ListaBuena"
 // import ListaMala from "./components/listas/ListaMala"
@@ -37,25 +42,31 @@ import Saludo from "./components/formulario/Saludo"
 
 
 function App() {
-    return (
+
+
+
+  return (
     <>
+    <Llamado/>
+    <Buscador/>
+    <Cronometro/>
+  
 
-<Saludo/><br/>
+
+      {/* <Saludo/><br/>
 <ContactoUnico/><br/>
-<Registro/>
+<Registro/> */}
 
 
 
 
-
-
-{/* <SelectorActividades/> */}
-{/* <ListaMala/>
+      {/* <SelectorActividades/> */}
+      {/* <ListaMala/>
 <ListaBuena/>
 <TablaAlumnos/>
 <ListaAlumnosFiltrados/>
 <ListaCompra/> */}
-{/* <CarritoStock/> */}
+      {/* <CarritoStock/> */}
 
 
       {/* <MiComponente/>
