@@ -1,0 +1,12 @@
+[
+  {"fecha": "2026-01-05", "categoria": "Electrónica", "producto": "Auriculares", "importe": 45.90, "unidades": 3},
+  {"fecha": "2026-01-12", "categoria": "Hogar", "producto": "Lámpara LED", "importe": 22.50, "unidades": 5},
+  {"fecha": "2026-01-18", "categoria": "Deportes", "producto": "Esterilla de yoga", "importe": 19.95, "unidades": 4},
+  {"fecha": "2026-01-25", "categoria": "Electrónica", "producto": "Cargador USB-C", "importe": 14.99, "unidades": 8},
+  {"fecha": "2026-02-02", "categoria": "Libros", "producto": "Novela de bolsillo", "importe": 9.90, "unidades": 12},
+  {"fecha": "2026-02-09", "categoria": "Hogar", "producto": "Juego de sábanas", "importe": 34.00, "unidades": 2},
+  {"fecha": "2026-02-15", "categoria": "Ropa", "producto": "Sudadera", "importe": 29.95, "unidades": 6},
+  {"fecha": "2026-02-22", "categoria": "Deportes", "producto": "Mancuernas 5 kg", "importe": 27.50, "unidades": 3},
+  {"fecha": "2026-03-08", "categoria": "Libros", "producto": "Manual de programación", "importe": 39.90, "unidades": 2},
+  {"fecha": "2026-03-15", "categoria": "Ropa", "producto": "Zapatillas", "importe": 59.99, "unidades": 3}
+]
