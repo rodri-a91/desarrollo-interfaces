@@ -9,7 +9,17 @@
 // Cuando lo tengas, borra el <p> de abajo y devuelve tu JSX.
 // Guarda el archivo y verás el resultado al momento en la lección.
 
+import { useState } from "react"
+
+type color = 'rojo' | 'ambar' | 'verde'
+
+
+
+
 function Ejercicio4() {
+    const [semaforo, setSemaforo] = useState('rojo')
+
+    
     return <p className="pendiente">✏️ Ejercicio 4 sin hacer: abre src/components/tutorial/ejercicios/Ejercicio4.tsx</p>
 }
 

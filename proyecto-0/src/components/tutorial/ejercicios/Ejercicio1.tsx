@@ -9,7 +9,15 @@
 // Guarda el archivo y verás el resultado al momento en la lección.
 
 function Ejercicio1() {
-    return <p className="pendiente">✏️ Ejercicio 1 sin hacer: abre src/components/tutorial/ejercicios/Ejercicio1.tsx</p>
+    const titulo: string = 'El señor de los anillos'
+    const anio: number = 2002
+    const duracion: number = 125
+
+    return <p className="pendiente">
+        <h4>{titulo} / {anio}</h4>
+        {Math.floor(duracion/60)}h {duracion%60}min 
+        {anio >=2000 ? "🎬 Moderno" : "🎞️ Clásico"}
+        </p>
 }
 
 export default Ejercicio1
