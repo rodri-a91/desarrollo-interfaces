@@ -9,8 +9,39 @@
 // Cuando lo tengas, borra el <p> de abajo y devuelve tu JSX.
 // Guarda el archivo y verás el resultado al momento en la lección.
 
+import type { ReactNode } from "react"
+
+type InsigniaProps = {
+    texto: string,
+    nivel?: 'bronce' | 'plata' | 'oro'
+}
+const medallas = { bronce: '🥉', plata: '🥈', oro: '🥇' }
+
+function Insignia({ texto, nivel = 'bronce' }: InsigniaProps) {
+    return <p>{medallas[nivel]} {texto} {nivel}</p>
+}
+type PanelProps = {
+    titulo: string,
+    children: ReactNode
+}
+function Panel({ titulo, children }: PanelProps) {
+    return <p>
+        <h3>{titulo}</h3>
+        {children}
+    </p>
+
+}
+
+
+
 function Ejercicio2() {
-    return <p className="pendiente">✏️ Ejercicio 2 sin hacer: abre src/components/tutorial/ejercicios/Ejercicio2.tsx</p>
+    return <p className="pendiente">
+        <Panel titulo="Mis logros">
+            <Insignia texto="pepito"/>
+            <Insignia texto="lourdes" nivel="plata"/>
+            <Insignia texto="maria" nivel="oro"/>
+        </Panel>
+    </p>
 }
 
 export default Ejercicio2
