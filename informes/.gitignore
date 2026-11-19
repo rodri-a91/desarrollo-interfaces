@@ -1,0 +1,33 @@
+# ==========================================
+# Docker / Metabase
+# ==========================================
+# Volúmenes con los datos que generan los contenedores
+# (BD interna de Metabase y datos de PostgreSQL)
+datos-metabase/
+datos-postgres/
+node_modules/
+
+# Variables de entorno con contraseñas (si las usas en compose.yml)
+.env
+
+# ==========================================
+# Python
+# ==========================================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# ==========================================
+# Excel / Office
+# ==========================================
+# Archivos temporales que crea Excel al abrir un .xlsx
+~$*
+
+# ==========================================
+# Sistema operativo y editores
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
