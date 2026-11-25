@@ -1,0 +1,103 @@
+{
+  "contactos": [
+    {
+      "id": "1",
+      "nombre": "Ana García",
+      "telefono": "600111222",
+      "categoria": "familia",
+      "favorito": true
+    },
+    {
+      "id": "2",
+      "nombre": "Luis Pérez",
+      "telefono": "611222333",
+      "categoria": "trabajo",
+      "favorito": false
+    },
+    {
+      "id": "3",
+      "nombre": "Marta Ruiz",
+      "telefono": "622333444",
+      "categoria": "amigos",
+      "favorito": false
+    },
+    {
+      "id": "4",
+      "nombre": "Carlos López",
+      "telefono": "633444555",
+      "categoria": "trabajo",
+      "favorito": true
+    },
+    {
+      "id": "5",
+      "nombre": "Sofía Díaz",
+      "telefono": "644555666",
+      "categoria": "familia",
+      "favorito": false
+    },
+    {
+      "id": "6",
+      "nombre": "Pablo Ortiz",
+      "telefono": "655666777",
+      "categoria": "amigos",
+      "favorito": false
+    },
+    {
+      "nombre": "dsadsadas",
+      "telefono": "",
+      "categoria": "amigos",
+      "favorito": false,
+      "id": "tr-9r21B9Hg"
+    },
+    {
+      "nombre": "dsasadas",
+      "telefono": "",
+      "categoria": "amigos",
+      "favorito": false,
+      "id": "6zedMX_u5_w"
+    },
+    {
+      "nombre": "sara",
+      "telefono": "",
+      "categoria": "amigos",
+      "favorito": false,
+      "id": "enufrd1g3RI"
+    },
+    {
+      "nombre": "safd",
+      "telefono": "",
+      "categoria": "amigos",
+      "favorito": false,
+      "id": "_5PR4qR68Ns"
+    },
+    {
+      "nombre": "sa",
+      "telefono": "",
+      "categoria": "amigos",
+      "favorito": false,
+      "id": "MHdNPnyUIng"
+    },
+    {
+      "nombre": "das",
+      "telefono": "",
+      "categoria": "amigos",
+      "favorito": false,
+      "id": "BOn51B7kbug"
+    },
+    {
+      "nombre": "dfsa",
+      "telefono": "",
+      "categoria": "amigos",
+      "favorito": false,
+      "id": "pjVpvOt1VGY"
+    },
+    {
+      "nombre": "s",
+      "telefono": "",
+      "categoria": "amigos",
+      "favorito": false,
+      "id": "uVrb6-881KI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
